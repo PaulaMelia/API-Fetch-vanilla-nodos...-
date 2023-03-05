@@ -1,0 +1,27 @@
+{
+    "peliculas":{
+        "ID01":{
+            "nombre":"Avengers",
+            "estreno":"27/11/2021"
+        },
+
+        "ID02":{
+            "nombre":"Avatar",
+            "estreno":"16/4/2022"
+
+        },
+
+        "ID03":{
+            "nombre":"Batman",
+            "estreno":"5/2/2023"
+        },
+        "ID04":{
+            "nombre":"World of worcraft",
+            "estreno":"8/10/2020"
+        },
+        "ID05":{
+            "nombre":"El perfume",
+            "estreno":"7/6/2008"
+        }
+    }
+}

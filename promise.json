@@ -1,0 +1,16 @@
+En JavaScript, una Promise (promesa) es un objeto que representa la eventual finalización (o falla) de una operación asíncrona y devuelve un valor. Las promesas son una forma de manejar tareas asíncronas en JavaScript de una manera más elegante y fácil de leer que las devoluciones de llamada (callbacks) anidadas.
+
+Una promesa tiene tres estados posibles:
+
+Pending: La promesa está pendiente y aún no se ha resuelto ni rechazado.
+Fulfilled: La promesa se resolvió con éxito y se devolvió un valor.
+Rejected: La promesa fue rechazada debido a un error y se devolvió un motivo de rechazo.
+Las promesas tienen dos métodos principales:
+
+then(): Este método se utiliza para manejar el caso en que la promesa se resuelve con éxito. El método toma dos argumentos: el primer argumento es una función que se ejecutará si la promesa se resuelve correctamente, y el segundo argumento es opcional y se utiliza para manejar cualquier error que pueda ocurrir en la función.
+
+catch(): Este método se utiliza para manejar el caso en que la promesa es rechazada. El método toma un argumento, que es una función que se ejecutará si la promesa es rechazada.
+
+Las promesas pueden ser encadenadas, lo que significa que puede haber múltiples then() que se ejecuten en secuencia después de que se resuelva la promesa.
+
+En resumen, las promesas son una forma más legible y fácil de manejar operaciones asíncronas en JavaScript. Permiten manejar casos de éxito y error de una manera más clara y sencilla, y son ampliamente utilizadas en bibliotecas y frameworks modernos de JavaScript.
